@@ -6,12 +6,7 @@
 //Arduino example "Button State Change Detection" (http://arduino.cc/en/Tutorial/Tone)
 //"Play a Melody using the tone() function" (http://arduino.cc/en/Tutorial/ButtonStateChange)
 
- 
-int melody[] = {
-  NOTE_C4, NOTE_G3,NOTE_C6, NOTE_A3, NOTE_G3,0, NOTE_B3, NOTE_C4};
-  
-int noteDurations[] = {
-  4, 8, 8, 4,4,4,4,4 };
+#include "pitches.h" // Include of pitches for buzzer
 const int buttonOrange = 2;  // Defining the pins for all the leds and button.
 const int ledOne  = 13; 
 const int ledTwo  = 12;
@@ -19,7 +14,6 @@ const int ledRed  = 11;
 const int ledFour = 10;
 const int ledFive = 9;
 const int buzzer = 7;    
-int noteLose= NOTE_C4;
 // Array of Pins
 int ledPins[] =   // an array of variables refering pin numbers to which LEDs are attached
 {   
