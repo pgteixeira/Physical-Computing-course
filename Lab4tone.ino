@@ -1,25 +1,16 @@
 
-int sensorValue = 0;
+ 
+ //created 21 Jan 2010
+// modified 30 Aug 2011
+// by Tom Igoe 
+// modified by Paula Teixeira for the Physical Computing course
+
+
+ #include "pitches.h"
+ 
+ int sensorValue = 0;
 
 int inputPin = A0;
-/*
-  Melody
- 
- Plays a melody 
- 
- circuit:
- * 8-ohm speaker on digital pin 8
- 
- created 21 Jan 2010
- modified 30 Aug 2011
- by Tom Igoe 
-
-This example code is in the public domain.
- 
- http://arduino.cc/en/Tutorial/Tone
- 
- */
- #include "pitches.h"
 
 // notes in the melody:
 int melody[] = {
