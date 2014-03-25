@@ -1,3 +1,7 @@
+// By Paula Teixeira - 03/24/14
+// for Physical Computing Lab 5
+
+
 int switchPin = 2;                       // Switch connected to pin 4
 
 void setup() {
